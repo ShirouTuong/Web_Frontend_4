@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f7f6;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+.hobbies {
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.hobbies li:nth-child(1) {
+    color: #e74c3c; 
+}
+
+.hobbies li:nth-child(2) {
+    color: #27ae60; 
+}
+
+.hobbies li:nth-child(3) {
+    color: #2980b9; 
+}
+
+
+.btn {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1d6fa5; 
+    transform: scale(1.05);    
+}
